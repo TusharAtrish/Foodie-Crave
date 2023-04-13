@@ -28,9 +28,11 @@ const Header = () => {
 
         <div className="foodie-rightHeader">
         <div className="foodie-rightHeader-container">
-        <div className="foodie-rightHeader-container-img">
-          <img src={header02} alt="header02" />
-          </div>
+        <img src={header02} alt="header02" className="foodie-rightHeader-container-img" />
+        <img src={headerSvg} alt="headerSvg" className="foodie-rightHeader-container-svg" />
+        <button className="foodie-rightHeader-container-getInTouchBtn">
+          Get In Touch
+        </button>
         </div>
     
         </div>

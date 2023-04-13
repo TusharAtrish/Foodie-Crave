@@ -70,12 +70,41 @@
 }
 
 .foodie-rightHeader-container{
-  position: relative;
+position: relative;
+height: 100%;
+width: 100%;
 }
 .foodie-rightHeader-container-img{
-  height: 98%;
+  width: 98%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+.foodie-rightHeader-container-svg{
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
 }
 
-.foodie-rightHeader-svg{
-
+.foodie-rightHeader-container-getInTouchBtn{
+position: absolute;
+top: 2rem;
+right: 2rem;
+z-index: 3;
+background: transparent;
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 1.3rem;
+padding: .8rem;
+color: white;
+border-radius: 2rem;
+border: 2px solid white;
+letter-spacing: 0.03em;
+width: fit-content;
+outline: none;
+cursor: pointer;
 }
