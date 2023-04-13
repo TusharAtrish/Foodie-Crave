@@ -1,6 +1,8 @@
 import React from "react";
 import "./header.css";
 import header01 from "../../asset/header01.png";
+import header02 from "../../asset/header02.png";
+import headerSvg from "../../asset/headerSvg.svg"
 
 const Header = () => {
   return (
@@ -16,15 +18,22 @@ const Header = () => {
             <p>Naturally made Healthcare Products for the
                better care & support of your body</p>
           </div>
-          <div className="foodie-leftHeader-container-explorebtn" >
-            <txt> Explore Now</txt>
-          </div>
+          <button className="foodie-leftHeader-container-explorebtn" >
+            Explore Now
+          </button>
 
           </div>
          
         </div>
 
-        <div className="foodie-rightHeader"></div>
+        <div className="foodie-rightHeader">
+        <div className="foodie-rightHeader-container">
+        <div className="foodie-rightHeader-container-img">
+          <img src={header02} alt="header02" />
+          </div>
+        </div>
+    
+        </div>
       </div>
     </>
   );
