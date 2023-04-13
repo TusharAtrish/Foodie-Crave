@@ -1,0 +1,76 @@
+.foodie-header {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  background: #ffffff;
+}
+.foodie-leftHeader {
+  display: flex;
+  width: 50%;
+
+  height: 100%;
+  padding-left: 8vw;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.foodie-leftHeader-img {
+  width: 10.7rem;
+  margin-top: 3.3rem;
+}
+.foodie-leftHeader-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.foodie-leftHeader-container-text1 {
+  width: 65%;
+
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.2rem;
+  line-height: 6.9rem;
+  color: #0e2368;
+}
+
+.foodie-leftHeader-container-text2 {
+  width: 345px;
+  height: 55px;
+  margin-top: 2.6rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.64447rem;
+  line-height: 2.7rem;
+  color: #444957;
+}
+
+.foodie-leftHeader-container-explorebtn {
+  width: 190px;
+  height: 63px;
+  margin-top: 4.1rem;
+  padding: 14px 34px;
+  background: #e23744;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.foodie-leftHeader-container-explorebtn txt {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+
+  outline: none;
+}
+
+.foodie-rightHeader {
+  display: flex;
+  width: 75.2rem;
+  height: 100%;
+}
