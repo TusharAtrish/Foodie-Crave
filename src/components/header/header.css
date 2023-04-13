@@ -35,7 +35,9 @@
   font-size: 5.2rem;
   color: #0e2368;
 }
-
+.span{
+  color:#e23744;
+}
 .foodie-leftHeader-container-text2 {
   width: 55%;
   font-family: "Open Sans";
@@ -97,7 +99,7 @@ z-index: 3;
 background: transparent;
 font-family: 'Source Sans Pro';
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 font-size: 1.3rem;
 padding: .8rem;
 color: white;

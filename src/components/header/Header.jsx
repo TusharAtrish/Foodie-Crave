@@ -13,7 +13,7 @@ const Header = () => {
             <img src={header01} alt="header01" />
           </div>
           <div className="foodie-leftHeader-container">
-            <div className="foodie-leftHeader-container-text1"> <p>Discover the Best Food and Drinks</p></div>
+            <div className="foodie-leftHeader-container-text1"> <p>Discover the <span className="span">Best</span> Food and Drinks</p></div>
             <div className="foodie-leftHeader-container-text2">
             <p>Naturally made Healthcare Products for the
                better care & support of your body</p>
