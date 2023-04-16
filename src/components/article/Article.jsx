@@ -1,5 +1,7 @@
 import React from "react";
 import "./article.css";
+import PropTypes from "prop-types";
+import {ArticleModel} from "../../model/ArticleModel";
 
 
 function Article(props) {  
@@ -28,4 +30,7 @@ function Article(props) {
   );
 }
 
+Article.propTypes = {
+  model: PropTypes.instanceOf(ArticleModel)
+};
 export default Article;

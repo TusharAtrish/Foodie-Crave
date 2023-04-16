@@ -38,14 +38,14 @@ const articleModels = [
   ),
 ];
 
-const Gallary = (props) => {
+const Gallary = () => {
   const [currentWin, setCurrentWin] = useState([0, 1, 2]);
   return (
     <div className="foodie-gallary">
       <div className="foodie-gallary-title">Latest Articles</div>
       <div className="foodie-gallary-container">
         {currentWin.map((value) => {
-          return <Article model={articleModels[value]} />;
+          return <Article model={articleModels[value]} key={value} />;
         })}
       </div>
       <div className="foodie-gallary-containerpager">
@@ -54,7 +54,7 @@ const Gallary = (props) => {
             src={pager1}
             alt="pager1"
             onClick={() => {
-              setCurrentWin(0, 1, 2);
+              setCurrentWin([0, 1, 2]);
             }}
           />
         </button>
@@ -64,7 +64,7 @@ const Gallary = (props) => {
             src={pager2}
             alt="pager2"
             onClick={() => {
-              setCurrentWin(3, 4, 5);
+              setCurrentWin([3, 4, 5]);
             }}
           />
         </button>
