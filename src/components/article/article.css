@@ -1,0 +1,58 @@
+.foodie-gallary-article-card{
+    background: #FFFFFF;
+    border: 1.37039px solid rgba(147, 162, 211, 0.38);
+    border-radius: 20.937px;
+    margin: 2rem;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    height: 54rem;
+    
+    width: fit-content;
+    
+    flex-direction: column;
+    
+}
+.foodie-gallary-article-card-img{
+   width: 32.5rem;
+}
+.foodie-gallary-article-card-container-content{
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+.foodie-gallary-article-card-text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 27px;
+padding-top: 1rem;
+color: #0E2368;
+}
+.foodie-gallary-article-card-textDes{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: -0.02em;
+color: #444957;
+padding-top: 2rem;
+padding-bottom: 2rem;
+
+}
+.foodie-gallary-article-card-button{
+    padding: 0rem 2rem;
+    background: white;
+    width: fit-content;
+    letter-spacing: 0.03em;
+    color: #424961;
+    line-height: 36px;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    cursor: pointer;
+    border: 1.37039px solid  #585f76;
+}

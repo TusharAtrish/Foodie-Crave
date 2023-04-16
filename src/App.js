@@ -9,7 +9,7 @@ const App = () => {
       <Header />
       <About />
       <Gallary />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
