@@ -1,22 +1,23 @@
 import React from "react";
 import "./article.css";
-import blog01 from "../../asset/blog01.png";
-function Article() {
+
+
+function Article(props) {  
+    const model = props.model;
   return (
     <div>
       <div className="foodie-gallary-article-card">
         <img
-          src={blog01}
+          src={model.imagePath}
           alt="blog01"
           className="foodie-gallary-article-card-img"
         />
         <div className="foodie-gallary-article-card-container-content">
           <div className="foodie-gallary-article-card-text">
-            Grilled Tomatoes at Home
+            {model.title}
           </div>
           <div className="foodie-gallary-article-card-textDes">
-            PLorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard...
+           {model.description}
           </div>
           <button className="foodie-gallary-article-card-button">
             Read More

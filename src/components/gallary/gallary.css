@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     height: fit-content;
-    background:rgb(252, 253, 254);
+    background:rgb(255, 255, 255);
     padding: 4vw;
     
     flex-direction: column;
@@ -36,23 +36,28 @@
 justify-content: center;
 display: flex;
 flex-direction: row;
-padding-top: 1.4rem;
+padding-top: 14rem;
+
 
 }
 .foodie-gallary-containerpager p{
     font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 27px;
     color: #424961;
-    padding-left:1.4rem;
-    padding-right:1.4rem;
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
-.foodie-gallary-containerpager img{
+.foodie-gallary-containerpager button{
     box-sizing: border-box;
+    width: 3rem;
+   justify-content: center;
     border: 1px solid #AFAFAF;
 border-radius: 5px;
+background: white;
+padding-top: .4rem;
 
 }
